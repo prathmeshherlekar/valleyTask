@@ -6,7 +6,7 @@ import PieChart from './piechart';
 function AddTab() {
     return (
         <div className="row mt-4">
-            <div className="col-md-4 offset-4">
+            <div className="col-12 col-xs-12 col-md-4 offset-md-4">
                 <Tabs className="text-justify" defaultActiveKey="Table">
                     <Tab eventKey="Table" title="Table">
                         <Table/>
